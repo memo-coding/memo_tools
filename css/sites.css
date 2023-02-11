@@ -1,0 +1,18 @@
+/*=========[Start Container]=========*/
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+/*=========[End Container]=========*/
+/*=========[grid]=========*/
+.grid {
+  margin: 0 auto;
+  width: 60%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr) !important;
+  gap: 50px;
+}
+
+.title {
+  margin: 0px 0px 50px 0px;
+}

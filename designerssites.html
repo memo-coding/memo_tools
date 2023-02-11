@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="images/logo.png" />
+    <title>memo tools | قسم التصميم</title>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Css Files -->
+    <style>
+        .card {
+            opacity: 0;
+            transition: 0.5s;
+        }
+
+        .show {
+            opacity: 1;
+        }
+    </style>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <!-- Start Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <img class="logo" src="images/logo.png" alt="Memo" />
+                <!-- <input class="b-none" type="search" placeholder="type a key word" /> -->
+                <!-- <i class="fa-search fa-solid fa-search search-item"></i> -->
+                <i class="fa-bars fa-solid fa-bars open" id="open-nav"></i>
+            </nav>
+        </div>
+    </header>
+    <!-- Aside Bar -->
+    <div class="menu" id="menu">
+        <div class="container">
+            <span class="main">
+                <a href="#"><img class="logo" src="images/logo.png" alt="Memo" /></a>
+                <i class="fa-solid fa-close" id="close-nav"></i>
+            </span>
+            <span><i class="fa-solid fa-house"></i><a href="index.html">الرئيسيه</a></span>
+            <span><i class="fa-solid fa-link"></i><a href="sites.html">المواقع والأدوات</a></span>
+            <span><i class="fa-brands fa-chrome"></i><a href="extensions.html">الإضافات</a></span>
+            <span><i class="fa-brands fa-youtube"></i><a href="youtubechannels.html">قنوات اليوتيوب</a></span>
+            <span><i class="fa-solid fa-graduation-cap"></i><a href="roadmaps.html">المسارات التعليميه</a></span>
+            <!-- <span><i class="fa-solid fa-pen-to-square"></i><a href="#">المقالات</a></span> -->
+            <span style="font-size: 12px;"><i class="fa-solid fa-download"></i><a href="telegramchannels.html">قنوات
+                    تليجرام ملحقات مجانيه</a></span>
+            <span><i class="fa-solid fa-book"></i><a href="books.html">ملخصات وكتب</a></span>
+            <span><i class="fa-solid fa-pen-nib"></i><a href="adobe.html">Adobe بدائل مجانيه لبرامج</a></span>
+
+        </div>
+    </div>
+    <!-- End Header -->
+    <!-- Start Main -->
+    <main>
+        <div class="container">
+            <div class="title">مواقع وأدوات المصممين</div>
+            <div class="grid">
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/color sites.png" alt="website-name">
+                        </div>
+                        <h3>مواقع الألوان</h3>
+                        <p>هذا القسم يحتوي على أشهر مواقع الألوان حتى لا تبحث كثيرا</p>
+                        <button class="btn br"><a href="colorsites.html"><i
+                                    class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/photos.png" alt="website-name">
+                        </div>
+                        <h3>مواقع الصور</h3>
+                        <p>هذا القسم يحتوي على أشهر المواقع للصور التي تحتاجها</p>
+                        <button class="btn br"><a href="picture.html"><i class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/png sites.png" alt="website-name">
+                        </div>
+                        <h3>مواقع للصور بدون خلفيه</h3>
+                        <p>في هذا القسم ستجد العديد من المواقع للصور المفرغه
+                            التي تحتاجها
+                        </p>
+                        <button class="btn br"><a href="pngsites.html"><i class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/video sites.png" alt="website-name">
+                        </div>
+                        <h3>مواقع الفيديوهات</h3>
+                        <p>هذا القسم يحتوي على مواقع تسمح لك بتحميل فيديوهات لتصميمك بدقه عاليه مجانا</p>
+                        <button class="btn br"><a href="videos.html"><i class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/ideas sites.png" alt="website-name">
+                        </div>
+                        <h3>مواقع تغذيه بصريه</h3>
+                        <p>هذا القسم يحتوى على مواقع تساعدك في استلهام الأفكار</p>
+                        <button class="btn br"><a href="ideasites.html"><i class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/logo ideas sites.png" alt="website-name">
+                        </div>
+                        <h3>مواقع تغذيه بصريه للشعارات</h3>
+                        <p>في هذا القسم ستجد مواقع للحصول على افكار متنوعه إذا كنت مصمم شعارات</p>
+                        <button class="btn br"><a href="logoideas.html"><i class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/_ui&ux  ideas sites .png" alt="website-name">
+                        </div>
+                        <h3>مواقع تغذيه بصريه
+                            UI&UX
+                        </h3>
+                        <p> هذا القسم يحتوي على مواقع تساعد في العثور على أفكار لتصميم المواقع والتطبيقات</p>
+                        <button class="btn br"><a href="uiuxiideasites.html"><i
+                                    class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/mook up.png" alt="website-name">
+                        </div>
+                        <h3>مواقع لتحميل الموك اب</h3>
+                        <p>هذا القسم يحتوى على مواقع لتحميل الموك اب لتعرض عليه أعمالك</p>
+                        <button class="btn br"><a href="mockupsites.html"><i
+                                    class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/brushs.png" alt="website-name">
+                        </div>
+                        <h3>مواقع لتحميل الفرش</h3>
+                        <p>هذا القسم يحتوي على مواقع لتحميل الفرش التي تحتاجها</p>
+                        <button class="btn br"><a href="brushsites.html"><i
+                                    class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/download.png" alt="website-name">
+                        </div>
+                        <h3>مواقع لتحميل الملفات</h3>
+                        <p>هذا القسم يحتوي على مواقع لتحميل الملفات التي تحتاجها</p>
+                        <button class="btn br"><a href="dawnloadfiles.html"><i
+                                    class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/icons.png" alt="website-name">
+                        </div>
+                        <h3>مواقع لتحميل الأيقونات</h3>
+                        <p>في هذا القسم المواقع التي تحتاجها لتحميل الأيقونات المناسبه لتصميمك</p>
+                        <button class="btn br"><a href="iconsites.html"><i class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/vector logo.png" alt="website-name">
+                        </div>
+                        <h3>مواقع لتحميل الشعارات فيكتور</h3>
+                        <p>هذا القسم يحتوي على مواقع لتحميل الشعارات الفيكتور </p>
+                        <button class="btn br"><a href="vectorlogosites.html"><i
+                                    class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/telegram logo.png" alt="website-name">
+                        </div>
+                        <h3>قنوات تليجرام لتحميل ملحقات وصور </h3>
+                        <p>هذا القسم يحتوي على قنوات تليجرام لتحميل ملفات وملحقات تصميم مجانيه ومدفوعه</p>
+                        <button class="btn br"><a href="telegramchannels.html"><i
+                                    class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/adobe.png" alt="website-name">
+                        </div>
+                        <h3>بدائل مجانيه لبرامج Adobe</h3>
+                        <p>إذا كنت لا تستطيع شراء البرامج المدفوعه فا ليست مشكله هذه بدئل ممتازه ومجانيه</p>
+                        <button class="btn br"><a href="adobe.html"><i class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+                <span class="to-top"><i class="fa-solid fa-plane-up"></i></span>
+            </div>
+        </div>
+    </main>
+    <!-- End Main -->
+    <!-- Start Footer -->
+    <footer>
+        <div class="container">
+            made with <i class="fa-solid fa-heart"></i> by <a href="https://www.facebook.com/memo.orginal"
+                target="_blank">Mohammed Refaat</a>
+            &copy; 2023
+        </div>
+    </footer>
+    <!-- End Footer -->
+    <script>
+        const cards = document.querySelectorAll(".card");
+
+        const observer = new IntersectionObserver(
+            (entries) => {
+                entries.forEach((entry) => {
+                    entry.target.classList.toggle("show", entry.isIntersecting);
+                    // if(entry.isIntersecting) observer.unobserve(entry.target)
+                });
+                console.log(entries);
+            },
+            {
+                threshold: 1,
+            }
+        );
+
+        cards.forEach((card) => {
+            observer.observe(card);
+        });
+
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>

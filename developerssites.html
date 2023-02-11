@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="images/logo.png" />
+    <title>memo tools | قسم البرمجه</title>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Css Files -->
+    <style>
+        .card {
+            opacity: 0;
+            transition: 0.5s;
+        }
+
+        .show {
+            opacity: 1;
+        }
+    </style>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <!-- Start Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <img class="logo" src="images/logo.png" alt="Memo" />
+                <!-- <input class="b-none" type="search" placeholder="type a key word" /> -->
+                <!-- <i class="fa-search fa-solid fa-search search-item"></i> -->
+                <i class="fa-bars fa-solid fa-bars open" id="open-nav"></i>
+            </nav>
+        </div>
+    </header>
+    <!-- Aside Bar -->
+    <div class="menu" id="menu">
+        <div class="container">
+            <span class="main">
+                <a href="#"><img class="logo" src="images/logo.png" alt="Memo" /></a>
+                <i class="fa-solid fa-close" id="close-nav"></i>
+            </span>
+            <span><i class="fa-solid fa-house"></i><a href="index.html">الرئيسيه</a></span>
+            <span><i class="fa-solid fa-link"></i><a href="sites.html">المواقع والأدوات</a></span>
+            <span><i class="fa-brands fa-chrome"></i><a href="extensions.html">الإضافات</a></span>
+            <span><i class="fa-brands fa-youtube"></i><a href="youtubechannels.html">قنوات اليوتيوب</a></span>
+            <span><i class="fa-solid fa-graduation-cap"></i><a href="roadmaps.html">المسارات التعليميه</a></span>
+            <!-- <span><i class="fa-solid fa-pen-to-square"></i><a href="#">المقالات</a></span> -->
+            <span style="font-size: 12px;"><i class="fa-solid fa-download"></i><a href="telegramchannels.html">قنوات
+                    تليجرام ملحقات مجانيه</a></span>
+            <span><i class="fa-solid fa-book"></i><a href="books.html">ملخصات وكتب</a></span>
+            <span><i class="fa-solid fa-pen-nib"></i><a href="adobe.html">Adobe بدائل مجانيه لبرامج</a></span>
+
+        </div>
+    </div>
+    <!-- End Header -->
+    <!-- Start Main -->
+    <main>
+        <div class="container">
+            <div class="title">مواقع وأدوات المطورين</div>
+            <div class="grid">
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/carbon.png" alt="website-name">
+                        </div>
+                        <h3>carbon now</h3>
+                        <p>يسمح لك هذا الموقع بمشاركة الكود الخاص بك مع أصدقاءك بشكل جميل ومنظم</p>
+                        <button class="btn br"><a href="https://carbon.now.sh" target="_blank"><i
+                                    class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/Lottie files.png" alt="website-name">
+                        </div>
+                        <h3>lottie files</h3>
+                        <p>هذا الموقع يسمح لك بعمل أنيميشن لموقعك او لتطبيقك بطريقه جذابه</p>
+                        <button class="btn br"><a href="https://lottiefiles.com/" target="_blank"><i
+                                    class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/lord icon.png" alt="website-name">
+                        </div>
+                        <h3>lord icon</h3>
+                        <p>هذا الموقع رهيب يحتوي علي العديد الايقونات المتحركة ستعطي شكل جذاب لموقعك</p>
+                        <button class="btn br"><a href="https://lordicon.com/" target="_blank"><i
+                                    class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/free frontend.png" alt="website-name">
+                        </div>
+                        <h3>free frontend</h3>
+                        <p>موقع قوى يحتوى على الكثير من الاشكال والتأثيرات الجاهزه مع الكود الخاص بها</p>
+                        <button class="btn br"><a href="https://freefrontend.com/" target="_blank"><i
+                                    class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/swiper.png" alt="website-name">
+                        </div>
+                        <h3>swiper</h3>
+                        <p>
+                            مكتبه رائعه تساعدك في عمل سلايدر رائع لموقعك وستوفر عليك الاكواد
+                        </p>
+                        <button class="btn br"><a href="https://swiperjs.com/" target="_blank"><i
+                                    class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/whirl.png" alt="website-name">
+                        </div>
+                        <h3>whirl</h3>
+                        <p>موقع يحتوي على
+                            Loder
+                            جاهزه وبأشكال جميله ويعطيك الكود الخاص به لتستخدمه في موقعك
+                        </p>
+                        <button class="btn br"><a href="https://whirl.netlify.app/" target="_blank"><i
+                                    class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/haikei.png" alt="website-name">
+                        </div>
+                        <h3>haikei</h3>
+                        <p>يعطيك هذا الموقع خلفيات رائعه لموقعك بشكل مجاني وبأمتداد
+                            svg أو png
+                            ستحتاجه حتما
+                        </p>
+                        <button class="btn br"><a href="https://app.haikei.app/" target="_blank"><i
+                                    class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/wow.png" alt="website-name">
+                        </div>
+                        <h3>wow js</h3>
+                        <p>مكتبه رائعه تسمح لك بتحريك عناصر موقعك بشكل رائع</p>
+                        <button class="btn br"><a href="https://wowjs.uk/" target="_blank"><i
+                                    class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/color space.png" alt="website-name">
+                        </div>
+                        <h3>color space</h3>
+                        <p>اذا كان لديك مشكله في إختيار ألوان متناسقه فهذا الموقع يحل لك هذه المشكله ويوجد به مميزات
+                            كثيره</p>
+                        <button class="btn br"><a href="https://mycolor.space/" target="_blank"><i
+                                    class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/huemint.png" alt="website-name">
+                        </div>
+                        <h3>huemint</h3>
+                        <p>يسمح لك بأختيار ألوان ويعرضها لك على شكل موقع حقيقي لترى اذا كانت مناسبه انه مفيد جدا </p>
+                        <button class="btn br"><a href="https://huemint.com/" target="_blank"><i
+                                    class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/3dicons.png" alt="website-name">
+                        </div>
+                        <h3>3d icons</h3>
+                        <p>موقع مفيد جدا سيعطيك ايقونات
+                            3d
+                            جذابه مجانا يمكنك إستعاملها في موقعك
+                        </p>
+                        <button class="btn br"><a href="https://3dicons.co/" target="_blank"><i
+                                    class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/charts.png" alt="website-name">
+                        </div>
+                        <h3>charts css</h3>
+                        <p>هذا الموقع يعطيك رسوم بيانيه لوضعها في موقعك ستحتاجه حقا</p>
+                        <button class="btn br"><a href="https://chartscss.org/components/data/" target="_blank"><i
+                                    class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/Mesher.png" alt="website-name">
+                        </div>
+                        <h3>mesher</h3>
+                        <p>هذا الموقع يصنع لك الوان تدريجيه ولكن بشكل ضبابي و أكثر إبداع ويعطيك الكود لتستخدمها في موقعك
+                        </p>
+                        <button class="btn br"><a href="https://www.csshero.org/mesher/" target="_blank"><i
+                                    class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/animated burger.png" alt="website-name">
+                        </div>
+                        <h3>jonsuh</h3>
+                        <p>موقع عظيم يوفر لك ايقونات ناف بار متحركه ويعطيك الكود سيوفر عليك الوقت </p>
+                        <button class="btn br"><a href="https://jonsuh.com/hamburgers/" target="_blank"><i
+                                    class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/keyframes.png" alt="website-name">
+                        </div>
+                        <h3>Keyframes</h3>
+                        <p>موقع سهل الإستخدام يسمح لك بعمل أنيميشن ويعطيك الكود لتستخدمه ويحتوي على مميزات اخرى</p>
+                        <button class="btn br"><a href="https://keyframes.app/animate" target="_blank"><i
+                                    class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/animated.png" alt="website-name">
+                        </div>
+                        <h3>animated background</h3>
+                        <p>هذا الموقع يوفر لك الكثير من الخلفيات المتحركه ويعطيك الكود الخاص بها</p>
+                        <button class="btn br"><a href="https://animatedbackgrounds.me/" target="_blank"><i
+                                    class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/Blobmaker.png" alt="website-name">
+                        </div>
+                        <h3>blob maker</h3>
+                        <p>هذا الموقع يسمح لك بعمل اشكال دائريه غير منتظمه ويسمح لك بالحصول على الكود الخاص بها</p>
+                        <button class="btn br"><a href="https://www.blobmaker.app" target="_blank"><i
+                                    class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/neumorphism.png" alt="website-name">
+                        </div>
+                        <h3>neumorphism</h3>
+                        <p>هذا الموقع يجعلك تصنع الظل بسهوله ويعطيك الكود الخاص به لتستخدمه في موقعك</p>
+                        <button class="btn br"><a href="https://neumorphism.io/" target="_blank"><i
+                                    class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/toruskit.png" alt="website-name">
+                        </div>
+                        <h3>toruskit</h3>
+                        <p>هذا الموقع يسمح لك بعمل اشكال دائريه أيضا ولكن متحركه ويسمح لك بالحصول على الكود الخاص بها
+                        </p>
+                        <button class="btn br"><a href="https://toruskit.com/tools/blobz/" target="_blank"><i
+                                    class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/bgjar.png" alt="website-name">
+                        </div>
+                        <h3>bgjar</h3>
+                        <p>موقع لإنشاء خلفيات ايضا ولكن يتميز بوجود خلفيات متحركه</p>
+                        <button class="btn br"><a href="https://bgjar.com/" target="_blank"><i
+                                    class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/waves.png" alt="website-name">
+                        </div>
+                        <h3>getwaves</h3>
+                        <p>من المواقع التي ستعطي شكل جذاب لموقعك يمكنك عمل به موجات رائعة </p>
+                        <button class="btn br"><a href="https://getwaves.io/" target="_blank"><i
+                                    class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/bennettfeely.png" alt="website-name">
+                        </div>
+                        <h3>bennettfeely</h3>
+                        <p>يفيدك هذا الموقع اذا كنت مبرمج وتريد قص الصور على اشكال هندسيه ويعطيك الكود الخاص بها</p>
+                        <button class="btn br"><a href="https://bennettfeely.com/clippy/" target="_blank"><i
+                                    class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/larsenwork.PNG" alt="website-name">
+                        </div>
+                        <h3>larsenwork</h3>
+                        <p>يسمح لك هذا الموقع بعمل الوان تدريجيه ويعطيك الكود الخاص بها</p>
+                        <button class="btn br"><a href="https://larsenwork.com/easing-gradients" target="_blank"><i
+                                    class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/erase bg.png" alt="website-name">
+                        </div>
+                        <h3>erase bg</h3>
+                        <p>إذا كنت مبرمج وتريد قص الصور بدون مجهود فهذا الموقع يخدمك بشكل رائع ومجاني</p>
+                        <button class="btn br"><a href="https://www.erase.bg/" target="_blank"><i
+                                    class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/undraw.svg" alt="website-name">
+                        </div>
+                        <h3>undraw</h3>
+                        <p>هذا الموقع يوفر لك صور جرافيك لأستخدامها في موقعك وباللون الذي تحدده</p>
+                        <button class="btn br"><a href="https://undraw.co/" target="_blank"><i
+                                    class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/css-separator-generators.png" alt="website-name">
+                        </div>
+                        <h3>css separator generator</h3>
+                        <p>موقع بسيط يقوم بإنشاء فواصل بين الاقسام لتتعلم منها الطريقة ولتستعملها مباشرة لتوفير الوقت
+                        </p>
+                        <button class="btn br"><a href="https://wweb.dev/resources/css-separator-generator/"
+                                target="_blank"><i class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/get-ui-kit.png" alt="website-name">
+                        </div>
+                        <h3>ui kit</h3>
+                        <p>مكتبة رائعة من الأيقونات والعناصر التي تساعدك في موقعك جربها لن تندم</p>
+                        <button class="btn br"><a href="https://getuikit.com/" target="_blank"><i
+                                    class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/hero-pattern.png" alt="website-name">
+                        </div>
+                        <h3>hero pattern</h3>
+                        <p>موقع جميل يقوم بإنشاء Patterns لتستخدمها ويمكنك التحكم فيها كما تريد ويمكنك تحميل
+                            ك SVG</p>
+                        <button class="btn br"><a href="https://heropatterns.com/" target="_blank"><i
+                                    class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/shape-dividers.png" alt="website-name">
+                        </div>
+                        <h3>shape dividers</h3>
+                        <p>موقع جميل يساعدك في إنشاء فواصل SVG تستعملها بين الأقسام في موقعك و يمكنك
+                            تحريكها أيضا</p>
+                        <button class="btn br"><a href="https://shapedividers.com/" target="_blank"><i
+                                    class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/stripes-generator.png" alt="website-name">
+                        </div>
+                        <h3>css stripes generator</h3>
+                        <p>موقع ينشئ Stripes بألوان منوعة ويمكنك التحكم بكل شريط منفصل لتكون شكل جميل
+                            يضيف الكثير</p>
+                        <button class="btn br"><a href="https://stripesgenerator.com/" target="_blank"><i
+                                    class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/svg-backgrounds.png" alt="website-name">
+                        </div>
+                        <h3>svg backgrounds</h3>
+                        <p> موقع رائع للحصول على SVG Background ويحتوي على الكثير من الخلفيات ويمكنك
+                            التحكم فيها بالكامل</p>
+                        <button class="btn br"><a href="https://www.svgbackgrounds.com/" target="_blank"><i
+                                    class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/apple-touch-icon.png" alt="website-name">
+                        </div>
+                        <h3>vector patterns generator</h3>
+                        <p>يوفر لكVector Patterns لتستخدمها كخلفية لموقعك ويمكنك التحكم فيها من ناحية
+                            الحجم وكل شيء
+
+                        </p>
+                        <button class="btn br"><a href="https://www.visiwig.com/patterns/" target="_blank"><i
+                                    class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/100L5.png" alt="website-name">
+                        </div>
+                        <h3>100L5</h3>
+                        <p>موقع خارق بمعنى الكلمه سيفيدك بشكل رهيب جدا يحتوى على ادوات كثيره ستبهرك يجب ان تتصفحه</p>
+                        <button class="btn br"><a href="https://10015.io/" target="_blank"><i
+                                    class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/browser-frames.png" alt="website-name">
+                        </div>
+                        <h3>browser frames</h3>
+                        <p>موقع جميل يساعدك في إنشاء إطار المتصفح لل Screenshot الخاصة بموقعك والتحكم في شكل الإطار</p>
+                        <button class="btn br"><a href="https://browserframe.com/" target="_blank"><i
+                                    class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/codepen.png" alt="website-name">
+                        </div>
+                        <h3>Code pen</h3>
+                        <p>موقع يحتوي على اشياء إبداعيه يمكنك الإطلاع على الكود الخاص بها والتعلم منها</p>
+                        <button class="btn br"><a href="https://codepen.io/" target="_blank"><i
+                                    class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/omatsuri.png" alt="website-name">
+                        </div>
+                        <h3>omatsuri</h3>
+                        <p>موقع عظيم لكل مطور يجب ان تجربه وحقا سيفيدك بشكل كبير </p>
+                        <button class="btn br"><a href="https://omatsuri.app/" target="_blank"><i
+                                    class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/online convert.png" alt="website-name">
+                        </div>
+                        <h3>online convert</h3>
+                        <p>هذا الموقع يساعدك على تحويل صيغ الملفات سيفيدك في حياتك بشكل عام</p>
+                        <button class="btn br"><a href="https://www.online-convert.com/" target="_blank"><i
+                                    class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/Google_Fonts.png" alt="website-name">
+                        </div>
+                        <h3>google fonts</h3>
+                        <p>هذا اشهر موقع للخطوط يمكنك اختيار الكثير من الخطوط العربيه والإنجليزيه بجميع الأوزان</p>
+                        <button class="btn br"><a href="https://fonts.google.com/" target="_blank"><i
+                                    class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-items">
+                        <div class="image">
+                            <img src="images/Font Awesome.png" alt="website-name">
+                        </div>
+                        <h3>fontawesome icons</h3>
+                        <p>أضخم موقع ستجد به كل الأيقونات التي تحتاجها في موقعك</p>
+                        <button class="btn br"><a href="https://fontawesome.com/" target="_blank"><i
+                                    class="fa-brands fa-golang"></i></a></button>
+                    </div>
+                </div>
+            </div>
+            <span class="to-top"><i class="fa-solid fa-plane-up"></i></span>
+        </div>
+    </main>
+    <!-- End Main -->
+    <!-- Start Footer -->
+    <footer>
+        <div class="container">
+            made with <i class="fa-solid fa-heart"></i> by <a href="https://www.facebook.com/memo.orginal"
+                target="_blank">Mohammed Refaat</a>
+            &copy; 2023
+        </div>
+    </footer>
+    <!-- End Footer -->
+    <script>
+        const cards = document.querySelectorAll(".card");
+
+        const observer = new IntersectionObserver(
+            (entries) => {
+                entries.forEach((entry) => {
+                    entry.target.classList.toggle("show", entry.isIntersecting);
+                    // if(entry.isIntersecting) observer.unobserve(entry.target)
+                });
+                console.log(entries);
+            },
+            {
+                threshold: 1,
+            }
+        );
+
+        cards.forEach((card) => {
+            observer.observe(card);
+        });
+
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
